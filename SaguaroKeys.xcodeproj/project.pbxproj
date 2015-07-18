@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256B9D2A7421A9232DC14DAF /* Pods_SaguaroKeysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		33F745241E08306E37E9772F /* Pods_SaguaroKeys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F098A19E8C3A6D43AED0F9 /* Pods_SaguaroKeys.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */; };
 		BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3331B5AEDC200095CF8 /* ViewController.swift */; };
 		BA45D3371B5AEDC200095CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3351B5AEDC200095CF8 /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36F098A19E8C3A6D43AED0F9 /* Pods_SaguaroKeys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaguaroKeys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB4530629810E25699EA26 /* Pods-SaguaroKeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.release.xcconfig"; sourceTree = "<group>"; };
+		85F9E4F5EB8FC16228FA8A7E /* Pods-SaguaroKeysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE5C2E2174D69009617FF1FF /* Pods-SaguaroKeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.debug.xcconfig"; sourceTree = "<group>"; };
 		BA45D32E1B5AEDC200095CF8 /* SaguaroKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaguaroKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA45D3331B5AEDC200095CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		BA45D34D1B5AEDC200095CF8 /* SaguaroKeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaguaroKeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3511B5AEDC200095CF8 /* SaguaroKeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguaroKeysUITests.swift; sourceTree = "<group>"; };
 		BA45D3531B5AEDC200095CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C028EC7EF2BB1494231013C7 /* Pods-SaguaroKeysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaguaroKeysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F745241E08306E37E9772F /* Pods_SaguaroKeys.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256B9D2A7421A9232DC14DAF /* Pods_SaguaroKeysTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5E45F129D1BD63F9ADE2DDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C2E2174D69009617FF1FF /* Pods-SaguaroKeys.debug.xcconfig */,
+				70DB4530629810E25699EA26 /* Pods-SaguaroKeys.release.xcconfig */,
+				C028EC7EF2BB1494231013C7 /* Pods-SaguaroKeysTests.debug.xcconfig */,
+				85F9E4F5EB8FC16228FA8A7E /* Pods-SaguaroKeysTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA45D3251B5AEDC200095CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 				BA45D3451B5AEDC200095CF8 /* SaguaroKeysTests */,
 				BA45D3501B5AEDC200095CF8 /* SaguaroKeysUITests */,
 				BA45D32F1B5AEDC200095CF8 /* Products */,
+				B5E45F129D1BD63F9ADE2DDA /* Pods */,
+				F486EA7CC7BD7E0ACDE49BF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +148,15 @@
 			path = SaguaroKeysUITests;
 			sourceTree = "<group>";
 		};
+		F486EA7CC7BD7E0ACDE49BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F098A19E8C3A6D43AED0F9 /* Pods_SaguaroKeys.framework */,
+				D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA45D3561B5AEDC200095CF8 /* Build configuration list for PBXNativeTarget "SaguaroKeys" */;
 			buildPhases = (
+				CEECEF38BC299D4FE0DF8F8E /* Check Pods Manifest.lock */,
 				BA45D32A1B5AEDC200095CF8 /* Sources */,
 				BA45D32B1B5AEDC200095CF8 /* Frameworks */,
 				BA45D32C1B5AEDC200095CF8 /* Resources */,
+				BEB33D5911F28B72B9FB86FE /* Embed Pods Frameworks */,
+				0E5DFE2C7E4322CB9D9BE4FE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA45D3591B5AEDC200095CF8 /* Build configuration list for PBXNativeTarget "SaguaroKeysTests" */;
 			buildPhases = (
+				682FB9D1D73E82DA68938593 /* Check Pods Manifest.lock */,
 				BA45D33E1B5AEDC200095CF8 /* Sources */,
 				BA45D33F1B5AEDC200095CF8 /* Frameworks */,
 				BA45D3401B5AEDC200095CF8 /* Resources */,
+				5CB3DBAFD898599FF9BC3168 /* Embed Pods Frameworks */,
+				842D877401ABA5F95C772E75 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +287,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5DFE2C7E4322CB9D9BE4FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB3DBAFD898599FF9BC3168 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		682FB9D1D73E82DA68938593 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		842D877401ABA5F95C772E75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB33D5911F28B72B9FB86FE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEECEF38BC299D4FE0DF8F8E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA45D32A1B5AEDC200095CF8 /* Sources */ = {
@@ -396,6 +527,7 @@
 		};
 		BA45D3571B5AEDC200095CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5C2E2174D69009617FF1FF /* Pods-SaguaroKeys.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SaguaroKeys/Info.plist;
@@ -407,6 +539,7 @@
 		};
 		BA45D3581B5AEDC200095CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DB4530629810E25699EA26 /* Pods-SaguaroKeys.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SaguaroKeys/Info.plist;
@@ -418,6 +551,7 @@
 		};
 		BA45D35A1B5AEDC200095CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C028EC7EF2BB1494231013C7 /* Pods-SaguaroKeysTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SaguaroKeysTests/Info.plist;
@@ -430,6 +564,7 @@
 		};
 		BA45D35B1B5AEDC200095CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F9E4F5EB8FC16228FA8A7E /* Pods-SaguaroKeysTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SaguaroKeysTests/Info.plist;
@@ -483,6 +618,7 @@
 				BA45D3581B5AEDC200095CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA45D3591B5AEDC200095CF8 /* Build configuration list for PBXNativeTarget "SaguaroKeysTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +627,7 @@
 				BA45D35B1B5AEDC200095CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA45D35C1B5AEDC200095CF8 /* Build configuration list for PBXNativeTarget "SaguaroKeysUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +636,7 @@
 				BA45D35E1B5AEDC200095CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
