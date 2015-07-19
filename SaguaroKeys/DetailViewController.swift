@@ -14,7 +14,6 @@ class DetailViewController: UIViewController {
 
         view.backgroundColor = UIColor(red: 220.0/255, green: 220.0/255, blue: 220.0/255, alpha: 1.0)
 
-        print("detail view controller loaded")
     }
 
     override func viewWillAppear(animated: Bool) {

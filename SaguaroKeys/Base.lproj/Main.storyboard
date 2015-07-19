@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="-6645" y="-560"/>
         </scene>
-        <!--Split View Controller-->
+        <!--Main Split View Controller-->
         <scene sceneID="I6w-zE-dQU">
             <objects>
-                <splitViewController id="sVX-CJ-8Bl" sceneMemberID="viewController">
+                <splitViewController id="sVX-CJ-8Bl" customClass="MainSplitViewController" customModule="SaguaroKeys" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="GhQ-gh-Lml" kind="relationship" relationship="masterViewController" id="wI7-YB-SnF"/>
                         <segue destination="oKk-db-MU6" kind="relationship" relationship="detailViewController" id="ocZ-k6-wWn"/>
