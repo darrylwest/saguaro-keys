@@ -16,7 +16,6 @@
 		BA2AB2EA1B5C2BCF0092F99B /* KeyModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E91B5C2BCF0092F99B /* KeyModelTests.swift */; };
 		BA2AB2EC1B5C38BF0092F99B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2EB1B5C38BF0092F99B /* DetailViewController.swift */; };
 		BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */; };
-		BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3331B5AEDC200095CF8 /* ViewController.swift */; };
 		BA45D3371B5AEDC200095CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3351B5AEDC200095CF8 /* Main.storyboard */; };
 		BA45D3391B5AEDC200095CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3381B5AEDC200095CF8 /* Assets.xcassets */; };
 		BA45D33C1B5AEDC200095CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D33A1B5AEDC200095CF8 /* LaunchScreen.storyboard */; };
@@ -53,7 +52,6 @@
 		BA2AB2EB1B5C38BF0092F99B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BA45D32E1B5AEDC200095CF8 /* SaguaroKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaguaroKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA45D3331B5AEDC200095CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA45D3361B5AEDC200095CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA45D3381B5AEDC200095CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA45D33B1B5AEDC200095CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,6 +151,13 @@
 			name = models;
 			sourceTree = "<group>";
 		};
+		BA2AB2ED1B5C41240092F99B /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
 		BA45D3251B5AEDC200095CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -178,11 +183,11 @@
 		BA45D3301B5AEDC200095CF8 /* SaguaroKeys */ = {
 			isa = PBXGroup;
 			children = (
+				BA2AB2DB1B5C26BB0092F99B /* controllers */,
 				BA2AB2E31B5C298E0092F99B /* delegates */,
 				BA2AB2DE1B5C28700092F99B /* models */,
-				BA2AB2DB1B5C26BB0092F99B /* controllers */,
+				BA2AB2ED1B5C41240092F99B /* services */,
 				BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */,
-				BA45D3331B5AEDC200095CF8 /* ViewController.swift */,
 				BA45D3351B5AEDC200095CF8 /* Main.storyboard */,
 				BA45D3381B5AEDC200095CF8 /* Assets.xcassets */,
 				BA45D33A1B5AEDC200095CF8 /* LaunchScreen.storyboard */,
@@ -450,7 +455,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */,
 				BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */,
 				BA2AB2DD1B5C27460092F99B /* MasterTableViewController.swift in Sources */,
 				BA2AB2E21B5C28E90092F99B /* DocumentIdentifier.swift in Sources */,

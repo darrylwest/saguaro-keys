@@ -17,6 +17,7 @@ class MasterTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("master view controller loaded")
 
         title = "Key List"
 

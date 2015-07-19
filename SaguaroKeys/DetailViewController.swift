@@ -6,7 +6,6 @@
 //  Copyright © 2015 darryl west. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class DetailViewController: UIViewController {
@@ -14,6 +13,8 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor(red: 220.0/255, green: 220.0/255, blue: 220.0/255, alpha: 1.0)
+
+        print("detail view controller loaded")
     }
 
     override func viewWillAppear(animated: Bool) {

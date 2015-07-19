@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Launch View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="01J-lp-oVM" customClass="LaunchViewController" customModule="SaguaroKeys" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
@@ -16,18 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Saguaro Keys" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTb-kL-XyB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTb-kL-XyB">
                                 <rect key="frame" x="137" y="286" width="327" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="327" id="STY-dk-hCB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Saguaro Keys">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yTb-kL-XyB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4MI-ZJ-5wM"/>
-                            <constraint firstItem="yTb-kL-XyB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bh0-yr-sJ2"/>
+                            <constraint firstItem="yTb-kL-XyB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="266" id="GIH-TO-VSE"/>
+                            <constraint firstItem="yTb-kL-XyB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rCL-g3-Z74"/>
+                            <constraint firstItem="yTb-kL-XyB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ziw-hL-S3y"/>
                         </constraints>
                     </view>
                 </viewController>
