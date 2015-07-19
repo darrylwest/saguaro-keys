@@ -3,7 +3,7 @@
 _A Swift 2.0 iOS/OSX encrypted key store application_
 
 <a href="https://developer.apple.com/swift/"><img src="http://raincitysoftware.com/swift2-badge.png" alt="" width="65" height="20" border="0" /></a>
-[![Build Status](https://travis-ci.org/darrylwest/saguaro-keys.svg?branch=master)](https://travis-ci.org/darrylwest/saguaro-keys)
+[![Build Status](https://travis-ci.org/darrylwest/saguaro-logger.svg?branch=master)](https://travis-ci.org/darrylwest/saguaro-logger)
 
 ## Features
 

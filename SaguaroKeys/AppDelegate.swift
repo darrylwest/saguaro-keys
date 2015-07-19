@@ -9,13 +9,24 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // application.statusBarStyle = UIStatusBarStyle.LightContent
+
+        let splitViewController = window!.rootViewController as! UISplitViewController
+        splitViewController.delegate = self
+
+        if UIDevice.currentDevice().userInterfaceIdiom == .Pad {
+            splitViewController.preferredDisplayMode = .AllVisible
+            splitViewController.preferredPrimaryColumnWidthFraction = 0.5
+            splitViewController.maximumPrimaryColumnWidth = 512
+        }
+
         return true
     }
 
