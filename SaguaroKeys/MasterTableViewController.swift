@@ -13,7 +13,8 @@ class MasterTableViewController: UITableViewController {
     private let masterCellIdentifier = "masterCell"
 
     // TODO : fetch from database
-    private var masterList:[String:String] = [String:String]()
+    private var masterList:[KeyModel] = [KeyModel]()
 
 
+    
 }

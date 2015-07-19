@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		256B9D2A7421A9232DC14DAF /* Pods_SaguaroKeysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		33F745241E08306E37E9772F /* Pods_SaguaroKeys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F098A19E8C3A6D43AED0F9 /* Pods_SaguaroKeys.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BA2AB2DD1B5C27460092F99B /* MasterTableViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */; };
+		BA2AB2DD1B5C27460092F99B /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2DC1B5C27460092F99B /* MasterTableViewController.swift */; };
 		BA2AB2E01B5C28A10092F99B /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2DF1B5C28A10092F99B /* KeyModel.swift */; };
 		BA2AB2E21B5C28E90092F99B /* DocumentIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E11B5C28E90092F99B /* DocumentIdentifier.swift */; };
 		BA2AB2E51B5C29A50092F99B /* Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E41B5C29A50092F99B /* Unique.swift */; };
@@ -44,7 +44,7 @@
 		70DB4530629810E25699EA26 /* Pods-SaguaroKeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.release.xcconfig"; sourceTree = "<group>"; };
 		85F9E4F5EB8FC16228FA8A7E /* Pods-SaguaroKeysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE5C2E2174D69009617FF1FF /* Pods-SaguaroKeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.debug.xcconfig"; sourceTree = "<group>"; };
-		BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCntroller.swift; sourceTree = "<group>"; };
+		BA2AB2DC1B5C27460092F99B /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		BA2AB2DF1B5C28A10092F99B /* KeyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
 		BA2AB2E11B5C28E90092F99B /* DocumentIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentIdentifier.swift; sourceTree = "<group>"; };
 		BA2AB2E41B5C29A50092F99B /* Unique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unique.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		BA2AB2DB1B5C26BB0092F99B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */,
+				BA2AB2DC1B5C27460092F99B /* MasterTableViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -449,7 +449,7 @@
 			files = (
 				BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */,
 				BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */,
-				BA2AB2DD1B5C27460092F99B /* MasterTableViewCntroller.swift in Sources */,
+				BA2AB2DD1B5C27460092F99B /* MasterTableViewController.swift in Sources */,
 				BA2AB2E21B5C28E90092F99B /* DocumentIdentifier.swift in Sources */,
 				BA2AB2E51B5C29A50092F99B /* Unique.swift in Sources */,
 				BA2AB2E01B5C28A10092F99B /* KeyModel.swift in Sources */,
