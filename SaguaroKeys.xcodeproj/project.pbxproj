@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		256B9D2A7421A9232DC14DAF /* Pods_SaguaroKeysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		33F745241E08306E37E9772F /* Pods_SaguaroKeys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F098A19E8C3A6D43AED0F9 /* Pods_SaguaroKeys.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BA2AB2DD1B5C27460092F99B /* MasterTableViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */; };
+		BA2AB2E01B5C28A10092F99B /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2DF1B5C28A10092F99B /* KeyModel.swift */; };
+		BA2AB2E21B5C28E90092F99B /* DocumentIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E11B5C28E90092F99B /* DocumentIdentifier.swift */; };
+		BA2AB2E51B5C29A50092F99B /* Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E41B5C29A50092F99B /* Unique.swift */; };
+		BA2AB2EA1B5C2BCF0092F99B /* KeyModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2E91B5C2BCF0092F99B /* KeyModelTests.swift */; };
 		BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */; };
 		BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3331B5AEDC200095CF8 /* ViewController.swift */; };
 		BA45D3371B5AEDC200095CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3351B5AEDC200095CF8 /* Main.storyboard */; };
 		BA45D3391B5AEDC200095CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3381B5AEDC200095CF8 /* Assets.xcassets */; };
 		BA45D33C1B5AEDC200095CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D33A1B5AEDC200095CF8 /* LaunchScreen.storyboard */; };
-		BA45D3471B5AEDC200095CF8 /* SaguaroKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3461B5AEDC200095CF8 /* SaguaroKeysTests.swift */; };
 		BA45D3521B5AEDC200095CF8 /* SaguaroKeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3511B5AEDC200095CF8 /* SaguaroKeysUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,11 @@
 		70DB4530629810E25699EA26 /* Pods-SaguaroKeys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.release.xcconfig"; sourceTree = "<group>"; };
 		85F9E4F5EB8FC16228FA8A7E /* Pods-SaguaroKeysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeysTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE5C2E2174D69009617FF1FF /* Pods-SaguaroKeys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeys/Pods-SaguaroKeys.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCntroller.swift; sourceTree = "<group>"; };
+		BA2AB2DF1B5C28A10092F99B /* KeyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
+		BA2AB2E11B5C28E90092F99B /* DocumentIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentIdentifier.swift; sourceTree = "<group>"; };
+		BA2AB2E41B5C29A50092F99B /* Unique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unique.swift; sourceTree = "<group>"; };
+		BA2AB2E91B5C2BCF0092F99B /* KeyModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyModelTests.swift; sourceTree = "<group>"; };
 		BA45D32E1B5AEDC200095CF8 /* SaguaroKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaguaroKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA45D3331B5AEDC200095CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +57,6 @@
 		BA45D33B1B5AEDC200095CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA45D33D1B5AEDC200095CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA45D3421B5AEDC200095CF8 /* SaguaroKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaguaroKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA45D3461B5AEDC200095CF8 /* SaguaroKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguaroKeysTests.swift; sourceTree = "<group>"; };
 		BA45D3481B5AEDC200095CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA45D34D1B5AEDC200095CF8 /* SaguaroKeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaguaroKeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3511B5AEDC200095CF8 /* SaguaroKeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguaroKeysUITests.swift; sourceTree = "<group>"; };
@@ -95,6 +103,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA2AB2DB1B5C26BB0092F99B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA2AB2DC1B5C27460092F99B /* MasterTableViewCntroller.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		BA2AB2DE1B5C28700092F99B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BA2AB2DF1B5C28A10092F99B /* KeyModel.swift */,
+				BA2AB2E11B5C28E90092F99B /* DocumentIdentifier.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		BA2AB2E31B5C298E0092F99B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BA2AB2E41B5C29A50092F99B /* Unique.swift */,
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		BA2AB2E61B5C2B880092F99B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		BA2AB2E71B5C2B950092F99B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		BA2AB2E81B5C2BA60092F99B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BA2AB2E91B5C2BCF0092F99B /* KeyModelTests.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		BA45D3251B5AEDC200095CF8 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +175,9 @@
 		BA45D3301B5AEDC200095CF8 /* SaguaroKeys */ = {
 			isa = PBXGroup;
 			children = (
+				BA2AB2E31B5C298E0092F99B /* delegates */,
+				BA2AB2DE1B5C28700092F99B /* models */,
+				BA2AB2DB1B5C26BB0092F99B /* controllers */,
 				BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */,
 				BA45D3331B5AEDC200095CF8 /* ViewController.swift */,
 				BA45D3351B5AEDC200095CF8 /* Main.storyboard */,
@@ -133,7 +191,9 @@
 		BA45D3451B5AEDC200095CF8 /* SaguaroKeysTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA45D3461B5AEDC200095CF8 /* SaguaroKeysTests.swift */,
+				BA2AB2E81B5C2BA60092F99B /* models */,
+				BA2AB2E71B5C2B950092F99B /* delegates */,
+				BA2AB2E61B5C2B880092F99B /* controllers */,
 				BA45D3481B5AEDC200095CF8 /* Info.plist */,
 			);
 			path = SaguaroKeysTests;
@@ -389,6 +449,10 @@
 			files = (
 				BA45D3341B5AEDC200095CF8 /* ViewController.swift in Sources */,
 				BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */,
+				BA2AB2DD1B5C27460092F99B /* MasterTableViewCntroller.swift in Sources */,
+				BA2AB2E21B5C28E90092F99B /* DocumentIdentifier.swift in Sources */,
+				BA2AB2E51B5C29A50092F99B /* Unique.swift in Sources */,
+				BA2AB2E01B5C28A10092F99B /* KeyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA45D3471B5AEDC200095CF8 /* SaguaroKeysTests.swift in Sources */,
+				BA2AB2EA1B5C2BCF0092F99B /* KeyModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
