@@ -23,7 +23,7 @@ class MasterTableViewController: UITableViewController {
         // TODO : load the data KeyDataService
 
         // TODO : look these up from MasterTableViewDelegate
-        view.backgroundColor = UIColor(red: 34.0/255, green: 34.0/255, blue: 34.0/255, alpha: 1.0)
+        view.backgroundColor = UIColor(red: 220.0/255, green: 220.0/255, blue: 220.0/255, alpha: 1.0)
 
         let header = UIView(frame: CGRect(x:0, y:0, width: CGRectGetWidth(view.frame), height: CGFloat( 10 )))
 
