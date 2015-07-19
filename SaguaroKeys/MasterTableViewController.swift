@@ -54,6 +54,10 @@ class MasterTableViewController: UITableViewController {
         return cell
     }
 
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+
     // shut off the status bar...
     override func prefersStatusBarHidden() -> Bool {
         return true
