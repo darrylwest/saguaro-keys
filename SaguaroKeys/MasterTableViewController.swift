@@ -6,7 +6,6 @@
 //  Copyright © 2015 darryl west. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class MasterTableViewController: UITableViewController {

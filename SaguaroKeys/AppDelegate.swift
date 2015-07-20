@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SaguaroLogger
+import SaguaroConnect
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
