@@ -9,13 +9,13 @@
 import Foundation
 import SaguaroConnect
 
-public class KeyDataService: SARemoteService {
+class KeyDataService: RemoteService {
 
-    public init() {
+    init() {
         super.init(serviceName: "KeyDataService")
     }
 
-    public func query(queryRequest:SAQueryRequest, callback:(SAResponseCallback<[KeyModel], NSError>) -> Void) {
+    func query(queryRequest:SAQueryRequest, callback:(SAResponseCallback<[KeyModel], NSError>) -> Void) {
 
         let keyList:[KeyModel] = [KeyModel]()
 

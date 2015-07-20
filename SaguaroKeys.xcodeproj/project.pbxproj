@@ -18,12 +18,13 @@
 		BA2AB2F11B5C4C3C0092F99B /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2F01B5C4C3C0092F99B /* MainSplitViewController.swift */; };
 		BA2AB2F51B5C522B0092F99B /* KeyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2F41B5C522B0092F99B /* KeyDataService.swift */; };
 		BA2AB2F91B5C566F0092F99B /* KeyDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2F81B5C566F0092F99B /* KeyDataServiceTests.swift */; };
-		BA2AB2FB1B5C589F0092F99B /* AbstractRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2FA1B5C589F0092F99B /* AbstractRemoteService.swift */; };
+		BA2AB2FB1B5C589F0092F99B /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2AB2FA1B5C589F0092F99B /* RemoteService.swift */; };
 		BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */; };
 		BA45D3371B5AEDC200095CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3351B5AEDC200095CF8 /* Main.storyboard */; };
 		BA45D3391B5AEDC200095CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA45D3381B5AEDC200095CF8 /* Assets.xcassets */; };
 		BA45D33C1B5AEDC200095CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA45D33A1B5AEDC200095CF8 /* LaunchScreen.storyboard */; };
 		BA45D3521B5AEDC200095CF8 /* SaguaroKeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA45D3511B5AEDC200095CF8 /* SaguaroKeysUITests.swift */; };
+		BAA5EA1B1B5DB7F800D3EB94 /* RemoteServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA5EA1A1B5DB7F800D3EB94 /* RemoteServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,7 @@
 		BA2AB2F01B5C4C3C0092F99B /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		BA2AB2F41B5C522B0092F99B /* KeyDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDataService.swift; sourceTree = "<group>"; };
 		BA2AB2F81B5C566F0092F99B /* KeyDataServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDataServiceTests.swift; sourceTree = "<group>"; };
-		BA2AB2FA1B5C589F0092F99B /* AbstractRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractRemoteService.swift; sourceTree = "<group>"; };
+		BA2AB2FA1B5C589F0092F99B /* RemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
 		BA45D32E1B5AEDC200095CF8 /* SaguaroKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaguaroKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3311B5AEDC200095CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA45D3361B5AEDC200095CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		BA45D34D1B5AEDC200095CF8 /* SaguaroKeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaguaroKeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA45D3511B5AEDC200095CF8 /* SaguaroKeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaguaroKeysUITests.swift; sourceTree = "<group>"; };
 		BA45D3531B5AEDC200095CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA5EA1A1B5DB7F800D3EB94 /* RemoteServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteServiceTests.swift; sourceTree = "<group>"; };
 		C028EC7EF2BB1494231013C7 /* Pods-SaguaroKeysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaguaroKeysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaguaroKeysTests/Pods-SaguaroKeysTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D81E3CECDD43D3784CB0BCCC /* Pods_SaguaroKeysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaguaroKeysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				BA2AB2F41B5C522B0092F99B /* KeyDataService.swift */,
-				BA2AB2FA1B5C589F0092F99B /* AbstractRemoteService.swift */,
+				BA2AB2FA1B5C589F0092F99B /* RemoteService.swift */,
 			);
 			name = services;
 			sourceTree = "<group>";
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				BA2AB2F81B5C566F0092F99B /* KeyDataServiceTests.swift */,
+				BAA5EA1A1B5DB7F800D3EB94 /* RemoteServiceTests.swift */,
 			);
 			name = services;
 			sourceTree = "<group>";
@@ -483,7 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2AB2FB1B5C589F0092F99B /* AbstractRemoteService.swift in Sources */,
+				BA2AB2FB1B5C589F0092F99B /* RemoteService.swift in Sources */,
 				BA45D3321B5AEDC200095CF8 /* AppDelegate.swift in Sources */,
 				BA2AB2DD1B5C27460092F99B /* MasterTableViewController.swift in Sources */,
 				BA2AB2F51B5C522B0092F99B /* KeyDataService.swift in Sources */,
@@ -500,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2AB2EA1B5C2BCF0092F99B /* KeyModelTests.swift in Sources */,
+				BAA5EA1B1B5DB7F800D3EB94 /* RemoteServiceTests.swift in Sources */,
 				BA2AB2F91B5C566F0092F99B /* KeyDataServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

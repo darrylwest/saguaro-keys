@@ -17,7 +17,8 @@ class KeyDataServiceTests: XCTestCase {
     func testInstance() {
         let service = KeyDataService()
 
-        XCTAssertNotNil(service, "service should not be nil")
+        XCTAssertNotNil(service.serviceName, "service should not be nil")
+        XCTAssertEqual(service.serviceName, "KeyDataService", "verify name")
     }
 
     func testQuery() {
